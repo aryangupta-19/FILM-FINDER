@@ -1,0 +1,99 @@
+body {
+    background-color: #a4133c;
+    color: #0a0408;
+}
+
+#appTitle {
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    font-size: 80px;
+}
+
+#genreForm, #playBtn {
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+}
+
+#movieInfo {
+    background-color:#fdc238;
+    display: flex;
+    gap:20px;
+    align-items: flex-start;
+    width:  65%;
+    margin:  32px auto;
+}
+#moviePoster{
+    width:  50%;
+    border-radius: 10px;
+}
+#movieText {
+    flex: 1;
+}
+
+img#moviePoster {
+    width:  100%; /* container ki full width le lega */
+    height:  auto;  /* image ratio maintain rahega */
+    display:  block;    /* extra bottom spacing remove hota hai */
+    margin:  auto;
+}
+
+#movieText {
+    font-family: 'Questrial';
+    color: #FEFBEA;
+    line-height: 1.25;
+}
+
+#movieTitle, #movieOverview {
+    padding:  32px;
+}
+
+#playBtn {
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 7px 10px;
+    font-weight:300;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #ed8300;
+    /* box-shadow: #a4133c; */
+    color: #0c0b0b;
+    cursor:  pointer;
+}
+
+label {
+    display: block;
+    font-size: 45px;
+    margin-bottom: 15px;
+    font-weight:500;
+}
+
+select {
+    font-size: larger;
+    width: 200px;
+    height: auto;
+}
+
+#likeOrDislikeBtns {
+    text-align: center;
+    margin: 0px auto;  
+}
+
+#likeBtn, #dislikeBtn {
+    padding: 15px 25px;
+    font-size: 25px;
+    border-radius: 12px;
+    border-style: none;
+    cursor:  pointer;
+}
+
+#likeBtn {
+    background-color: #249e57;
+    color: darkgreen;
+}
+
+#dislikeBtn {
+    background-color: #c74a4a;
+    color: #910000;
+}
