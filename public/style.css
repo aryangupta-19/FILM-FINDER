@@ -17,7 +17,7 @@ body {
 }
 
 #movieInfo {
-    background-color:#fdc238;
+    /* background-color:#fdc238; */
     display: flex;
     gap:20px;
     align-items: flex-start;
